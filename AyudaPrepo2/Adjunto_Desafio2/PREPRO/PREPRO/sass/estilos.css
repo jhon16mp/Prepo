@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "magic-letter";
+  src: url("../fonts/magic.ttf");
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  color: white;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 7vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+header div:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header div:nth-child(1) ul {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header div:nth-child(2) {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header div:nth-child(2) ul {
+  color: #C9381;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+#banner {
+  height: 80vh;
+  padding-top: 7vh;
+  background-image: url(https://images.ctfassets.net/s5n2t79q9icq/7fYAC6COmGvKENyLSZK4Oz/f26e631c4ee05603a509ab6b52de1d12/BkmS3ihd6o_1920x700.jpg?q=70&w=1920&h=700&fit=crop&f=center&fm=webp);
+  -o-object-fit: fill;
+     object-fit: fill;
+  background-position: 50% 50%;
+}
+
+#banner > div {
+  position: relative;
+  top: 30%;
+  left: 15%;
+}
+
+#banner h3 {
+  position: relative;
+  left: 7%;
+  text-transform: uppercase;
+  font-family: magic-letter;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(red));
+  background: linear-gradient(white, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 50px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+
+#banner h4 {
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: arial;
+  width: 35%;
+  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-width: 1px;
+  font-weight: 6px;
+}
+
+#banner section {
+  color: red;
+}
+
+.btn-classic, .btn-classic-danger, .btn-classic-success, .btn-classic-large {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: black;
+  border: solid 1px black;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-classic-danger {
+  background-color: red;
+}
+
+.btn-classic-success {
+  background-color: green;
+}
+
+.btn-classic-large {
+  width: 200px;
+}
+
+.btn-classic:hover, .btn-classic-danger:hover, .btn-classic-success:hover, .btn-classic-large:hover {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.btn-classic, .btn-classic-danger, .btn-classic-success, .btn-classic-large {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: black;
+  border: solid 1px black;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-classic-danger {
+  background-color: red;
+}
+
+.btn-classic-success {
+  background-color: green;
+}
+
+.btn-classic-large {
+  width: 200px;
+}
+
+.btn-classic:hover, .btn-classic-danger:hover, .btn-classic-success:hover, .btn-classic-large:hover {
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+#section {
+  font-family: "Arial";
+}
+
+.div-e {
+  height: 100px;
+  width: 700px;
+}
+
+.div-e > div {
+  width: 350px;
+}
+/*# sourceMappingURL=estilos.css.map */

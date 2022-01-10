@@ -1,0 +1,13 @@
+Enunciado:
+Realice las actividades que se le solicitan a continuacion: La maqueta es de diseño libre. Envie todos los archivos relacionados de este desafio, como son todos los sass y sus archivos procesados correspondientes. Por favor use nombres cortos para los archivos.
+
+Objetivos:
+1.- Realice un mixin [border-radius: 1em 0 em 0; padding: 2em; display:flex; justify-content:center; align-items:center;] para dar formato a un boton como se indica en la imagen adjunta. Realice ademas un "marcador de posicion o Placeholder" para dar formato a un boton como se indica. [cree este Placeholder y uselo en su maqueta].
+
+2.- Cree una variable global es Sass llamada anchoBoton. Inicialicela en el valor de 25px.
+
+3.- Crear una funcion en un archivo parcial de Sass (recuerde es otro archivo que inicia su nombre con guion bajo [ _nombre.sass ]; e importelo en su archivo sass principal para poder usarlo, la funcion debe llamarse: formatoBoton que reciba por parametros una variable $ancho y otras tres variables que puede declarar en la declaracion formal de la funcion como $r, $g, $b que coincidan con el color rgb que se le requiera dar al elemento a ser generado [en este caso el boton]. Establezca aqui un warn con una condicion, dado que si alguno de los valores este fuera del rango de [ 0 - 225 ] Recuerde que el color RGB recibe estos datos solo en ese rango y debe advertir en caso de que al momento de llamar a la funcion con dichos parametros erroneos el programador pueda estar enterado. Deje un mensaje siginificativo para tal fin. Ademas asegurese de establecer algun color rgb como argumentos opcionales, en caso de que al llamar a la funcion no se pasen dichos parametros, es decir, permitiendo que pasar los parametros $r, $g, $b sea opcional para dicha funcion.
+
+4.- Dentro de dicha funcion realizar una operacion aritmetica que multiplique como sigue: $ancho * 5; Luego cree una estructura condicional en la que solo si el resultado de la multiplicacion es mayor a 125px ejecute la siguiente instruccion: width = $ancho; Ademas ajuste el background-color del elemento en base a los colores que requiere por parametro esta funcion.
+
+5.- Cree otra estructura condicional en la que si el resultado de la multiplicacion es menor a 100 entonces emita un mensaje de error en la consola indicando: "el valor del ancho debe ser mayor a 20". Tenga en cuenta que revisare su desafio ejecutando Sass desde la consola, al verificar con @debug debo ubicar su archivo parcial Sass. Al cambiar el valor de la variable global $ancho a un valor menor que 4 me debe saltar el mensaje de error indicado.

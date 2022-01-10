@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+header {
+  color: white;
+  background-color: black;
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 7vh;
+  justify-content: space-between;
+  width: 100%;
+}
+header div:nth-child(1) {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+header div:nth-child(1) ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+header div:nth-child(2) {
+  width: 30%;
+  display: flex;
+}
+header div:nth-child(2) ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+#banner {
+  height: 80vh;
+  padding-top: 7vh;
+  background-image: url(https://images.ctfassets.net/s5n2t79q9icq/3FrnayXMdYYfYFZZAdp05j/61652e3a8819b702b703d7f411e85f38/NkOuLhHHiD_1920x700.jpg?q=70&w=1920&h=700&fit=crop&f=center&fm=webp);
+}
+
+/*# sourceMappingURL=estilos.css.map */

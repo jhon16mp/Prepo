@@ -1,0 +1,28 @@
+@function formatoBoton($ancho,$r,$g,$b)
+    @if $r<0
+        @warn "valores estan fuera del rango de [ 0 - 225 ]"
+    @else if $r>225
+         @warn "valores estan fuera del rango de [ 0 - 225 ]"
+    @else 
+        @return
+            background: $r
+    @if $g<0
+        @warn "valores estan fuera del rango de [ 0 - 225 ]"
+    @else if $g>225
+         @warn "valores estan fuera del rango de [ 0 - 225 ]"
+    @else 
+        @return
+            background: $g
+    @if $b<0
+        @warn "valores estan fuera del rango de [ 0 - 225 ]"
+    @else if $b>225
+         @warn "valores estan fuera del rango de [ 0 - 225 ]"
+    @else 
+        @return
+            background: $b
+    $operacion: $ancho *5
+    @if $operacion>125px
+        width: $ancho
+
+    @if $operacion<100px
+        @error "el valor del ancho debe ser mayor a 20"

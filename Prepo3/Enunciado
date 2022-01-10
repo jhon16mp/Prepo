@@ -1,0 +1,13 @@
+Enunciado:
+Maquete identicamente como se solicita, teniendo en cuenta los requerimientos que se le solicitan a continuacion:
+
+Objetivos:
+1.- Cree dos mapas, uno llamado coloresPar y otro llamado coloresImpar. En ellos cree dos colores en cada uno con un nombre significativo para su uso.
+
+2.- Cree una estructura condicional que permita manejar la logica para los colores pares e impares para ser manejados segun se indica en el punto 3
+
+3.- Cree un ciclo que permita establecer el color de los recuadros de la maqueta indicada, con el uso de la estructura condicional solicitada en el punto 2.
+
+4.- Establezca un mixin para dar estilo al titulo "Building a House?" y uselo en su maqueta
+
+5.- Establezca un mixin para establecer el estilo de los elementos dentro de los recuadros de colores. Uselo en su maqueta.

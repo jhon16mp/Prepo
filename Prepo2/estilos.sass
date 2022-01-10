@@ -1,0 +1,87 @@
+$bA1: rgb(16, 206, 206)
+$bA2: rgb(253, 204, 24)
+$bA3: #f57d91
+$bA4: #0c48ca
+@import "archivo"
+
+#cuerpo1
+    position: relative
+    margin: auto
+#imagen1
+    height: 400px
+    width: 300px
+    right: 580px
+    top: 20px
+    position: relative
+    z-index: 1
+h1
+    position: relative
+    font-family: "Segoe UI"
+    top: -600px
+    left: 50%
+    width: 300px
+    font-size: 100px
+    color: #0c48ca
+label
+    position: absolute
+    top: 28%
+    left: 50%
+    font-family: "Homer Simpson UI"
+.b-A
+    width: 150px
+    background-color: $bA1
+    height: 150px
+    align-items: center
+    display: flex
+    float: left
+    justify-content: center
+    top: -500px
+    left: 30%
+    color: white
+    font-size: 20px
+    margin: auto
+    position: relative
+    z-index: 3
+    &-1
+        @extend .b-A
+        background-color: $bA2
+    &-2
+        @extend .b-A
+        background-color: $bA3
+    &-3
+        @extend .b-A
+        background-color: $bA4
+        
+#fondoI
+    position: relative
+    background: linear-gradient(70deg, orange, rgb(245, 125, 145))
+    height: 260px
+    width: 300px
+    left: 50px
+    top: -200px
+    z-index: 0
+#cuerpo3-clo
+    background-color: rgb(16, 206, 206)
+    position: absolute
+    color: white
+    top: 500px
+    height: 400px
+    width: 100%
+#cuerpo3-clo-1
+    position: relative
+    top: 50px
+    left: 50px
+    height: 30px
+#cuerpo3-clo-2
+    position: relative
+    width: 500px
+    left: 300px
+    top: 110px
+    font-size: 12px
+#barra
+    background-color: white
+    position: absolute
+    top: 160px
+    left: 50px
+    width: 160px
+    height: 2px

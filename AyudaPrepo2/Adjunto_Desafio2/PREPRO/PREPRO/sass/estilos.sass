@@ -1,0 +1,87 @@
+@font-face
+  font-family: "magic-letter"
+  src: url("../fonts/magic.ttf")
+
+$black: ""
+$text-color: #C9381
+
+body
+  margin: 0
+header
+  color: white
+  background-color: black
+  display: flex
+  position: fixed
+  top: 0
+  height: 7vh
+  justify-content: space-between
+  width: 100%
+  div:nth-child(1)
+    display: flex
+    width: 50%
+    justify-content: space-around
+    ul
+      width: 80%
+      display: flex
+      justify-content: space-around
+      list-style: none
+      text-transform: uppercase
+      font-weight: bold
+  div:nth-child(2)
+    width: 30%
+    display: flex
+    ul
+      color: $text-color
+      width: 100%
+      display: flex
+      justify-content: space-around
+      list-style: none
+      text-transform: uppercase
+      font-size: small
+#banner
+  height: 80vh
+  padding-top: 7vh
+  background-image: url(https://images.ctfassets.net/s5n2t79q9icq/7fYAC6COmGvKENyLSZK4Oz/f26e631c4ee05603a509ab6b52de1d12/BkmS3ihd6o_1920x700.jpg?q=70&w=1920&h=700&fit=crop&f=center&fm=webp)
+  object-fit: fill
+  background-position: 50% 50%
+  > div
+    position: relative
+    top: 30%
+    left: 15%
+  h3
+    position: relative
+    left: 7%
+    text-transform: uppercase
+    font-family: magic-letter
+    background: linear-gradient(white,red)
+    -webkit-background-clip: text
+    color: transparent 
+    font-size: 50px
+    -webkit-text-stroke-color: black
+    -webkit-text-stroke-width: 1px
+  h4
+    font-size: 25px
+    text-align: center
+    text-transform: uppercase
+    color: white
+    font-family: arial
+    width: 35%
+    -webkit-text-stroke-color: red
+    -webkit-text-stroke-width: 1px
+    font-weight: 6px
+  section
+    color: red
+
+@import "button"
+
+@import "button"
+
+#section
+  font-family: "Arial" + $black
+
+.div-e
+  height: 100px
+  $ancho: 700px
+  width: $ancho
+  > div
+    width: $ancho / 2

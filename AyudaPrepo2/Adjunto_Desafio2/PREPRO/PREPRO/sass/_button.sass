@@ -1,0 +1,28 @@
+.btn-classic
+    $ancho: 100px
+    $alto: 40px
+    display: flex
+    justify-content: center
+    align-items: center
+    width: $ancho
+    height: $alto
+    border-radius: 8px
+    background-color: black
+    border: solid 1px black
+    font-weight: bold
+    color: white
+    &-danger
+        @extend .btn-classic
+        background-color: red
+    &-success
+        @extend .btn-classic
+        background-color: green
+    &-large
+        @extend .btn-classic
+        width: $ancho * 2
+.btn-classic:hover
+    background-color: transparent
+    color: black
+    cursor: pointer
+
+   

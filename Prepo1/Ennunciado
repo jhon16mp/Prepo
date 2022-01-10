@@ -1,0 +1,15 @@
+Desafío 1 - Preprocesadores CSS Nivel I
+×
+Enunciado:
+Segun la imagen adjunta, realizar la maqueta siguiendo los requerimientos indicados.
+
+Objetivos:
+1.- Instalar Prepros en tu computador (enviar un capture de la instalacion)
+
+2.- Instalar Sass a traves de la consola [puede ser en el terminal desde Visual Studio Code]. Enviar capture del ultimo mensaje de la consola una vez instalado Sass de forma global en el computador correctamente.
+
+3.- Maquetar identicamente segun la imagen adjuntada. El tercer banner puede ser editado con un archivo .css sin preprocesar si asi lo desea.
+
+4.- Crear para el banner principal una hoja de estilo en formato .scss Preprocesar e incluir en el html para que el .css resultante de estilo al banner
+
+5.- Crear para el banner secundario [donde aparecen los platillos y sus precios] una hoja de estilos hecha con .sass Preprocesar e incluir en el html para que el .css resultante de estilo al banner.

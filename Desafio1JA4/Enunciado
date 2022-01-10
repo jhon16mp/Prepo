@@ -1,0 +1,14 @@
+Desafío 1 - JavaScript Nivel IV
+Enunciado:
+Realizar las siguientes actividades
+
+Objetivos:
+1.- Crear 3 archivos HTML con un contenido arbitrario: 1)"carreras.html" para mostrar las carreras de CADI F1, 2) "cursos.html" para mostrar los cursos de CADI F1 y una pagina index.html. En la pagina index, colocar un menu con 2 opciones (2 hipervinculos), con los textos "Cursos" y "Carreras" respectivamente. Cada hipervinculo debe hacer que se cargue su respectiva pagina en un area div del index, usando XMLHttpRequest.
+
+2.- El archivo index.html debe mostrar (usando elementos HTML) las secciones de cursos que estan por comenzar, leyendo los datos del archivo adjunto seccion.json. Hacer la consulta usando el objeto XMLHttpRequest
+
+3.- En el archivo carreras.html, mostrar las carreras disponibles en la academia, leyendo los datos del archivo adjunto planificacioncarrera.json. Hacer la consulta usando el objeto XMLHttpRequest
+
+4.- En el archivo cursos.html, mostrar los cursos disponibles en la academia, leyendo los datos del archivo adjunto curso.json. Hacer la consulta usando el objeto XMLHttpRequest
+
+5.- En el archivo cursos.html, mostrar las areas de estudio disponibles en la academia, leyendo los datos del archivo adjunto areadeestudio.json. Hacer la consulta usando el objeto XMLHttpRequest

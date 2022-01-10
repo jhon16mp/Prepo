@@ -1,0 +1,13 @@
+Enunciado:
+Segun la imagen adjunta, realizar los requerimientos que se le indican a continuacion: PD: Adjunto les dejo los archivos de la clase, junto con la imagen de la maqueta solcitida.
+
+Objetivos:
+1.- Maquetar identicamente segun el diseño propuesto.
+
+2.- Escribir el diseño en un archivo llamado estilos.sass (recuerde enviar este archivo junto con el resto de archivos de su desafio), y preprocesarlo para obtener el correspondiente archivo estilos.css
+
+3.- Crear variables para los colores de los cuadros "Learning", "Philosophy", "Pratice", "Games"
+
+4.- Maquetar el header en un archivo sass parcial (recuerde, guarde el nombre de ese archivo con un guion bajo al comienzo del nombre del archivo; por ejemplo, _archivo.sass), e importelo dentro del archivo estilos.sass para dar el estilo correspondiente al "Header" de su maqueta.
+
+5.- Utilice el @extend para maquetar los cuadros ("Learning", "Philosophy", "Pratice", "Games"), recuerde, lo que los diferencian esencialmente en este desafio es el color del background.

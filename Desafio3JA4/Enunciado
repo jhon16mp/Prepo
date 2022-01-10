@@ -1,0 +1,13 @@
+Enunciado:
+Usando como guía el funcionamiento real del sitio Web de la academia (cadif1.com/carrera), realizar las siguientes actividades
+
+Objetivos:
+1.- Mostrar en una pagina las carreras disponibles en la academia, usando la función $.ajax de JQuery y consultando los datos de la siguiente URL: https://api.cadif1.com/carrera. Mostrar solo las carreras cuyo atributo "activa" tenga el valor "1"
+
+2.- Al hacer clic sobre una carrera, usando la función $.ajax de JQuery, consultar el pensum detallado de la carrera en la siguiente URL: https://api.cadif1.com/carrera/{id}, donde {id} es el id de la carrera sobre la cual el usuario hizo clic
+
+3.- Al hacer clic sobre una de las materias del pensum, consultar la información detallada de la materia usando la siguiente URL: http://api.cadif1.com/nivel/{id}, donde {id} es el valor del atributo "idmateriaxservicio" de la materia del pensum sobre la que el usuario hizo clic
+
+4.- Modificar el formulario de registro creado en el desafío anterior para consultar los datos de las: URL https://api.cadif1.com/areadeestudio (para obtener las áreas de estudio), https://api.cadif1.com/curso (para obtener los cursos) y https://api.cadif1.com/seccion (para obtener las secciones) en vez de los archivos JSON. Hacer las 3 solicitudes en el ready de la pagina y usar estos datos para llenar los select de área de estudio, cursos y secciones, usando el evento onchange de los select
+
+5.- Validar los datos del formulario e intentar enviar los datos a la URL http://api.cadif1.com/registro, usando el método $.post de JQuery, enviando los datos como un arreglo de objetos. Manejar apropiadamente la respuesta de error al intentar hacer el registro

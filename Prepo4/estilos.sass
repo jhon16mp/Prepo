@@ -1,0 +1,17 @@
+$anchoBoton: 25px
+
+@import "nombre"
+
+@mixin boton()
+    border-radius: 1em 0 em 0
+    padding: 2em
+    display: flex
+    justify-content: center
+    align-items: center
+#boton1
+   @include boton()
+   background: formatoBoton($anchoBoton,$green)
+
+#boton2
+   @include boton()
+   background: formatoBoton($anchoBoton,$blue)

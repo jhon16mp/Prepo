@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <table width="100%">
+        <tr>
+            <td>
+                <h1>Ejemplo de búsquedas en Google</h1>
+                <!-- si no se especifica el metodo de envio, se asume que por defecto es get -->
+                <form name="buscar-google" action="https://google.com/search" method="get">
+                    <input type="text" required name="q" size="50" placeholder="Esciba algo para buscar" />
+                    <input type="submit" value="Buscar en Google" />
+                </form>
+            </td>
+            <td>
+                <iframe height="400px" width="350px" src="https://cadif1.com" name="resultados">
+                </iframe>
+            </td>
+        </tr>
+    </table>
+    <h1>Formulario de registro</h1>
+    <form name="registro" method="post">
+        <table border="0" width="500px">
+            <tr>
+                <td>
+                    Nombre
+                </td>
+                <td>
+                    <input type="text" required maxlength="25" size="25"
+                            name="nombre" placeholder="Nombre completo" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Correo
+                </td>
+                <td>
+                    <input type="text" required name="correo" size="25"
+                        placeholder="Correo Electrónico" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Descripción
+                </td>
+                <td>
+                    <textarea cols="50" rows="4" name="descripcion" placeholder="Describe tus habilidades"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" style="height: 50px;">
+                    <input type="submit" name="registrar" value="Registrar"/>
+                    <input type="reset" name="resetear" value="Comenzar de nuevo" />
+                </td>
+            </tr>       
+        </table>
+    </form>
+
+</body>
+</html>
